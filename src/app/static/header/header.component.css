@@ -1,0 +1,19 @@
+.d-flex{
+    padding: 15px 15px;
+    justify-content: space-between;
+}
+
+#sesion{
+    
+    right: 70px;
+    position: fixed;
+}
+#sesion img{
+    width: 7%;
+    height: 7%;
+}
+#sesion span{
+    text-transform: uppercase;
+    font-style: italic;
+    color:white;
+}

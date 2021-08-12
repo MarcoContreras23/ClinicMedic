@@ -1,0 +1,46 @@
+
+  <!--Navbar-->
+<mdb-navbar SideClass="navbar navbar-expand-lg navbar-dark bg-primary"  style="background-color: #e3f2fd;" [containerInside]="false">
+
+    <!-- Navbar brand -->
+    <mdb-navbar-brand><a class="navbar-brand" href="#">ClinicMedic</a></mdb-navbar-brand>
+  
+    <!-- Collapsible content -->
+    <links>
+  
+      <!-- Links -->
+      <ul class="navbar-nav mr-auto">
+       
+            <!-- Dropdown -->
+            <li class="nav-item dropdown" dropdown>
+            <a dropdownToggle mdbWavesEffect type="button" class="nav-link dropdown-toggle waves-light" mdbWavesEffect>
+                Auditoría Concurrente<span class="caret"></span></a>
+            <div *dropdownMenu class="dropdown-menu dropdown dropdown-primary" role="menu">
+                <a class="dropdown-item waves-light" mdbWavesEffect href="#">Crear PGP</a>
+                <a class="dropdown-item waves-light" mdbWavesEffect href="#">Carga Masiva PGP</a>
+                <a class="dropdown-item waves-light" mdbWavesEffect href="#">Casos por inactivar o activar</a>
+                <div class="divider dropdown-divider"></div>
+                <a class="dropdown-item waves-light" mdbWavesEffect href="#">Busqueda de casos</a>
+            </div>
+            </li>
+            <li class="nav-item dropdown" dropdown>
+                <a dropdownToggle mdbWavesEffect type="button" class="nav-link dropdown-toggle waves-light" mdbWavesEffect>
+                Conciliación<span class="caret"></span></a>
+                <div *dropdownMenu class="dropdown-menu dropdown dropdown-primary" role="menu">
+                    <a class="dropdown-item waves-light" mdbWavesEffect href="#">Conciliación cuentas</a>
+                </div>
+            </li>
+    
+      </ul>
+      <!-- Links -->
+  
+      <!-- Search form -->
+      <ul class="navbar-nav" id="sesion">
+        Bienvenido(a)<span>Paulo Cesar Contreras Medina</span> 
+        <img src="https://img.icons8.com/ios/50/000000/user--v3.png"/>
+    </ul>
+    </links>
+    <!-- Collapsible content -->
+  
+  </mdb-navbar>
+  <!--/.Navbar-->
